@@ -1,5 +1,5 @@
 import MacbookScroll from "../components/ui/macbook-scroll"
-import hot from "../../src/assets/hot.png"
+import hot from "../../src/assets/hot.jpeg"
 import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
 
         <div className="flex justify-center space-x-10 mt-10 ">
-       <button className="h-16 w-40 md:w-50 bg-orange-500 text-white border border-black">
+       <button className="h-16 w-40 md:w-50 bg-orange-500 text-white border-2 border-black hover:border-3  rounded-lg">
             connect wallet
           </button> 
         
@@ -30,9 +30,9 @@ const Home = () => {
       <div className="flex justify-center">
       <MacbookScroll src={hot} showGradient={false} />
       </div>
-      <div className="flex justify-center items-center mt-100 md:mt-150">
+      <div className="flex justify-center items-center mt-60 md:mt-150">
         <div className="flex flex-col items-center">
-          <div className="flex flex-col md:flex-row items-center md:justify-center text-3xl md:text-5xl space-x-4">
+          <div className="flex flex-col text-center md:flex-row items-center md:justify-center text-3xl md:text-5xl space-x-4">
             <div>revolutionizing </div>
             <div className="text-orange-500">sharing business cards </div>
           </div>
@@ -68,7 +68,7 @@ const Home = () => {
 
       </div>
 
-      <div className="flex justify-center space-x-6 items-center md:text-4xl tracking-widest text-2xl md:mt-30 mt-50">
+      <div className="flex flex-col md:flex-row text-center justify-center space-x-6 items-center md:text-4xl tracking-widest text-2xl md:mt-30 mt-50">
         <div>
           contribute to
         </div>
@@ -86,14 +86,14 @@ const Home = () => {
       </div>
       <div className="flex justify-center mt-10 pb-30 border-b border-gray-200  mb-5 max-w-[100vw]">
         <button className=" px-10 py-4 border-3 rounded-md hover:bg-gray-100 border-orange-500 ">
-          shacard/github
+          github/shacard
         </button>
       </div>
 
       
         <div className="flex md:flex-row flex-col space-y-5 md:space-y-0 justify-around items-center p-10 pb-12" >
           <div className="flex space-x-2 text-2xl items-center">
-            <svg width="29px" height="29px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ff810a"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 4.25C2.48122 4.25 1.25 5.48122 1.25 7V17C1.25 18.5188 2.48122 19.75 4 19.75H20C21.5188 19.75 22.75 18.5188 22.75 17V9.75H6C5.58579 9.75 5.25 9.41421 5.25 9C5.25 8.58579 5.58579 8.25 6 8.25H22.75V7C22.75 5.48122 21.5188 4.25 20 4.25H4Z" fill="#ff810a"></path></svg>
+           <svg width="26px" height="26px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ff7300"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 4.25C2.48122 4.25 1.25 5.48122 1.25 7V17C1.25 18.5188 2.48122 19.75 4 19.75H20C21.5188 19.75 22.75 18.5188 22.75 17V9.75H6C5.58579 9.75 5.25 9.41421 5.25 9C5.25 8.58579 5.58579 8.25 6 8.25H22.75V7C22.75 5.48122 21.5188 4.25 20 4.25H4Z" fill="#ff7300"></path></svg>
            <Link to="/">shacard</Link>
           </div>
 
